@@ -358,6 +358,7 @@ Complete list of metrics
     CharacterErrorRate
     InceptionScore
     FID
+    CMMD
     CosineSimilarity
     Entropy
     KLDivergence

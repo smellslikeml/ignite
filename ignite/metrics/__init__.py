@@ -13,6 +13,7 @@ from ignite.metrics.entropy import Entropy
 from ignite.metrics.epoch_metric import EpochMetric
 from ignite.metrics.fbeta import Fbeta
 from ignite.metrics.frequency import Frequency
+from ignite.metrics.gan.cmmd import CMMD
 from ignite.metrics.gan.fid import FID
 from ignite.metrics.gan.inception_score import InceptionScore
 from ignite.metrics.gpu_info import GpuInfo
@@ -72,6 +73,7 @@ __all__ = [
     "EpochMetric",
     "Fbeta",
     "FID",
+    "CMMD",
     "GeometricAverage",
     "IoU",
     "InceptionScore",
